@@ -1,1 +1,1 @@
-Multiple mains
+This is a C debugging program.
