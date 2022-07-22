@@ -1,2 +1,2 @@
-#!/bin/bash
-libmy.a
+# Static Libraries in C programming
+
