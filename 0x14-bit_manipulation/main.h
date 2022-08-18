@@ -1,9 +1,12 @@
-#ifndef _MAIN_
-#define _MAIN_
+#ifndef LIST_H
+#define LIST_H
+#include<stdio.h>
+#include<string.h>
 
+int _putchar(char c);
 unsigned int binary_to_uint(const char *b);
 void print_binary(unsigned long int n);
-int _putchar(char c);
+void print_b_helper(unsigned long int, unsigned long int);
 int get_bit(unsigned long int n, unsigned int index);
 int set_bit(unsigned long int *n, unsigned int index);
 int clear_bit(unsigned long int *n, unsigned int index);
